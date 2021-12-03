@@ -11321,9 +11321,6 @@ video.bg-video {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  body {
-    background-size: cover;
-  }
 
   body video {
     display: none;
