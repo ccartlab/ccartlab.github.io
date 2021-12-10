@@ -87,8 +87,13 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background: url("../assets/img/background.jpg") #87c0c0 no-repeat center center;
-  background-size: cover;
+  background: url("../assets/img/background.jpg") #87c0c0 no-repeat center center;ì
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-size: cover;
+  }
 }
 
 hr {
