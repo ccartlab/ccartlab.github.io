@@ -1,0 +1,24 @@
+/* your styles go here */
+.sidebar-heading img {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.small-navbar .sidebar-heading img {
+  max-height: 100px;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.sidebar-link:before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f105';
+  margin: 0 0.85rem 0 -0.9375rem;
+  color: #999;
+}
+
+.box-masonry .box-masonry-image.with-hover-icon:after {
+  font-family: 'Font Awesome 5 Free';
+}
