@@ -2,7 +2,14 @@
 .sidebar-heading img {
   max-height: 300px;
   margin-bottom: 20px;
+  display: none;
 }
+@media (min-width: 576px) {
+  .sidebar-heading img {
+    display: block;
+  }
+}
+
 
 .small-navbar .sidebar-heading img {
   max-height: 100px;
@@ -21,4 +28,8 @@
 
 .box-masonry .box-masonry-image.with-hover-icon:after {
   font-family: 'Font Awesome 5 Free';
+}
+
+.small-navbar-heading {
+  margin-left: 1em;
 }
