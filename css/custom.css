@@ -33,3 +33,7 @@
 .small-navbar-heading {
   margin-left: 1em;
 }
+
+.row {
+  min-height: 560px;
+}
